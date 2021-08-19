@@ -4,13 +4,15 @@ html
 }
 header
 {
-    background-color: bisque;
-    border: cornflowerblue 10px solid;
+    background-image: url(./imagenes/conjunto-logotipos-mano-femenina-estilo-lineal-simple-minimalista-vector-emblemas-e-insignias-mano-mujer-flores-lirio-icono-femenino-studio-salon-peluqueria-spa_501165-255.jpg);
+    
     text-align: center;
+    height: 10em;
 }
 h1
 {
-    color: brown;
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .principal {
     border: chocolate solid 5px;
@@ -26,7 +28,7 @@ img
 }
 .contenido {
     border: solid 5px blue;
-    width: 50%;
+    width: 33%;
     padding: 10px;
     margin: 5px;
     text-align: center;
@@ -39,7 +41,20 @@ img
 }
 .contenido1 {
     border: solid 5px blue;
-    width: 50%;
+    width: 33%;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    background-image: url(./imagenes/nail_studio_logo6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.contenido2
+{
+    border: solid 5px blue;
+    width: 33%;
     margin: 5px;
     text-align: center;
     padding: 10px;
