@@ -1,3 +1,7 @@
+html
+{
+    background-color: rgb(80, 133, 146);
+}
 header
 {
     background-color: bisque;
@@ -13,7 +17,12 @@ h1
     display: flex;
     padding: 20px;
     margin: 20px;
+    
    
+}
+img
+{
+    
 }
 .contenido {
     border: solid 5px blue;
@@ -22,6 +31,10 @@ h1
     margin: 5px;
     text-align: center;
     height: 20em;
+    background-image: url(./imagenes/descarga.jfif);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100% 100%;
    
 }
 .contenido1 {
@@ -30,6 +43,9 @@ h1
     margin: 5px;
     text-align: center;
     padding: 10px;
+    background-image: url(./imagenes/nail_studio_logo6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
 }
 footer
